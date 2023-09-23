@@ -1,0 +1,2 @@
+class GCPInterface:
+    pass

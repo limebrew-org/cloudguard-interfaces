@@ -1,0 +1,2 @@
+class AWSInterface:
+    pass

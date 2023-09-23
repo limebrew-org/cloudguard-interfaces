@@ -1,0 +1,2 @@
+class AzureConfig:
+    pass

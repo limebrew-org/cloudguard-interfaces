@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cloudguard-interfaces"
+version = "1.0.0"
+description = "Interfaces for cloudguard CLI"
+authors = ["deepraj1729 <deeprajbaidyaofficial@gmail.com>", "Saptaktdk <saptakdev123@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/limebrew-org/"
+repository = "https://github.com/limebrew-org/cloudguard-interfaces"
+keywords = ["python","aws","azure","gcp","cspm"]
+packages = [{include = "cloudguard_interfaces"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cloudguard-modules = "1.0.2" 
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
